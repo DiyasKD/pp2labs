@@ -16,4 +16,4 @@ for j in range(3):
                     print(k, end="  ")
                     for i, k in data["imdata"][j]['l1PhysIf']["attributes"].items():
                         if i == "mtu":
-                            print(k, end=" "*51)
+                            print(k)
