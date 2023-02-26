@@ -1,8 +1,8 @@
 import re
 s = 'a.*b$'
 
-ins = str(input())
-if re.match(s, ins):
+text = str(input())
+if re.search(s, text):
     print("YEAH")
 else:
     print("NO")
